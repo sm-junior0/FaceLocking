@@ -15,12 +15,15 @@ Keys:
     s save current aligned face to data/debug_aligned/<timestamp>.jpg
 """
 from __future__ import annotations
+import utils.transport
+import utils.session
 import os
 import time
 from pathlib import Path
 from typing import Tuple
 import cv2
 import numpy as np
+
 # Import from your existing script
 from .haar_5pt import Haar5ptDetector, align_face_5pt
 
