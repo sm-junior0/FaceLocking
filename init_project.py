@@ -19,6 +19,7 @@ structure = {
 ],
 "book": [],
 }
+
 for folder, files in structure.items():
     folder_path = Path(folder)
     folder_path.mkdir(parents=True, exist_ok=True)
