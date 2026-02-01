@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Tuple
 import cv2
 import numpy as np
+
 # Import from your existing script
 from .haar_5pt import Haar5ptDetector, align_face_5pt
 
